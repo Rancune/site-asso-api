@@ -68,3 +68,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Launching the project
 
 ./vendor/bin/sail up -d
+
+
+npm run build
