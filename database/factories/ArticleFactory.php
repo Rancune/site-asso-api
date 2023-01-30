@@ -24,6 +24,7 @@ class ArticleFactory extends Factory
             'title' => $title,
             'body' => $body,
             'type' => $types[0],
+            
         ];
 
     

@@ -27,6 +27,7 @@ class StoreArticleRequest extends FormRequest
             'title' => 'required|string|max:255',
             'body' => 'required|string',
             'type' => 'required|string DEFAULT article',
+            'img' => 'required|string',
         ];
         
     }

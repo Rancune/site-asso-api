@@ -13,23 +13,7 @@ class Article extends Model
         'title',
         'body',
         'type',
-
+        'img',
     ];
 
-    // public function getRouteKeyName()
-    // {
-    //     return 'slug';
-    // }
-
-    // public function user()
-    // {
-    //     return $this->belongsTo(User::class);
-    // }
-
-    // public function tags()
-    // {
-    //     return $this->belongsToMany(Tag::class);
-    // }
-
-    
 }

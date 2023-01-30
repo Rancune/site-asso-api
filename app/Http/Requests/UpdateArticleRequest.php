@@ -30,12 +30,14 @@ class UpdateArticleRequest extends FormRequest
                 'title' => 'required|string|max:255',
                 'body' => 'required|string',
                 'type' => 'required|string DEFAULT article',
+                'img' => 'required|string',
             ];
         }else {
             return [
                 'title' => 'string|max:255',
                 'body' => 'string',
                 'type' => 'string DEFAULT article',
+                'img' => 'string',
             ];
         }
 
